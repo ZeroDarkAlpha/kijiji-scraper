@@ -8,21 +8,21 @@ import numpy
 import time
 from os import path
 
-url = 'https://www.kijiji.ca/b-for-rent/ontario'
+url = 'https://www.kijiji.ca/b-apartments-condos/barrie'
 baseurl = 'https://www.kijiji.ca'
-baseForOntario = '/c30349001l9004'
+baseForOntario = '/c37l1700006'
 pageNos = '/page-'
 apartment = 'v-apartments-condos'
-roomRent = 'room rent'
+roomRent = 'apartment,room'
 adurl = []
 listing = []
 urlToSave = []
-title = []
-prices = []
+title = '1,2,clean,deal,discount'
+prices = '>1200, <1850'
 description = []
-location = []
+location = 'Barrie, Toronto'
 datePosted = []
-features = []
+features = '1 Bedroom, 2 Bedroom'
 linksFromText = []
 listingType = []
 adId = []
